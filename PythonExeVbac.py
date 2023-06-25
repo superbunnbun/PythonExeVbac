@@ -66,16 +66,22 @@ def copyFile(src_path, dir_path):
 
 
 # Execute vbac.wsf
-def executeFile(dir_path):
-    subprocess.run('cscript vbac.wsf decombine', shell=True)
+def executeFile(dir_path, method):
+    if method == 0:
+        subprocess.run('cscript vbac.wsf decombine', shell=True)
+    else:
+        subprocess.run('cscript vbac.wsf combine', shell=True)
 
 
 # main function
 def main():
     dir_path = "./bin"
-    makeFolder(dir_path)
-    copyFile(sys.argv[1], dir_path)
-    executeFile(dir_path)
+    if sys.argv[1] == "decombine":
+        makeFolder(dir_path)
+        copyFile(sys.argv[2], dir_path)
+        executeFile(dir_path, 0)
+    else:
+        executeFile(dir_path, 1)
 
 
 if __name__ == "__main__":

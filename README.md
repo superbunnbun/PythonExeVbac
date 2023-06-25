@@ -22,12 +22,20 @@ $ pyinstaller .\PythonExeVbac.py --onefile --clean
 ## Usage
 - Execute the following command.
 ```
-$ PythonExeVbac.exe [full path of xlsm file]
+$ PythonExeVbac.exe decombine [full path of xlsm file]
+
+or 
+
+$ PythonExeVbac.exe combine [full path of xlsm file]
 ```
 
 ## Features
 - decombine
   - Extract macro code from xlsm file and output bas file in src folder.
+  - bin folder is generated each time and the specified xlsm file is copied.
+- combine
+  - Generate xlsm file from bas file.
+  - 
 
 ## Reference
 - [vbac.wf](https://github.com/vbaidiot/ariawase)
