@@ -41,10 +41,10 @@ $ PythonExeVbac.exe combine [full path of xlsm file]
 - [vbac.wf](https://github.com/vbaidiot/ariawase)
 
 ## Author
-- superbunnbun
+- tkyasu999
 
 ## Licence
-[MIT](https://github.com/superbunnbun/PythonExeVbac/blob/main/LICENSE)
+[MIT](https://github.com/tkyasu999/PythonExeVbac/blob/main/LICENSE)
 
 ~~~
 Copyright (c) 2011 igeta

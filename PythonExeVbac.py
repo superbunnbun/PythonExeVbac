@@ -1,4 +1,4 @@
-# Copyright (c) 2023 superbunnbun
+# Copyright (c) 2023 tkyasu999
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -38,9 +38,9 @@
 # OR OTHER DEALINGS IN THE SOFTWARE.
 #
 #
-# \par Copyright (C), 2023, superbunnbun
+# \par Copyright (C), 2023, tkyasu999
 # @file    PythonExeVbac.py
-# @author  superbunnbun
+# @author  tkyasu999
 # @version V1.0.0
 # @date    2023/06/23
 # @brief   Description: Execute vbac.wsf by Exe format.
